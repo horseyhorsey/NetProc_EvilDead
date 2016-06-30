@@ -11,7 +11,13 @@
 *.userprefs
 
 # Asset
-src\ED_Console\asset
+src\ED_Console\asset\fonts
+src\ED_Console\asset\gfx
+src\ED_Console\asset\lampshows
+src\ED_Console\asset\music
+src\ED_Console\asset\sfx
+src\ED_Console\asset\sound
+src\ED_Console\asset\voice
 
 # Build results
 [Dd]ebug/
