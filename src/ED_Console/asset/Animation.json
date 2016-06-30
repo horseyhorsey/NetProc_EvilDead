@@ -1,0 +1,63 @@
+{
+  "Animations": [
+    {
+      "Alias": "texture",
+      "FileName": "texture.png",
+      "FrameTime": 1,
+      "Repeat": true,
+      "PosX": 0,
+      "PosY": 0,
+      "ColorKey": null
+    },
+    {
+      "Alias": "light_texture",
+      "FileName": "light_texture.png",
+      "FrameTime": 1,
+      "Repeat": true,
+      "PosX": 0,
+      "PosY": 0,
+      "ColorKey": null
+    },
+    {
+      "Alias": "DeerWall",
+      "FileName": "DeerWall.png",
+      "FrameTime": 1,
+      "Repeat": true,
+      "PosX": 0,
+      "PosY": 0,
+      "ColorKey": null
+    },
+    {
+      "Alias": "BloodSplat",
+      "FileName": "Blood/BloodSplat%04d.png",
+      "FrameTime": 1,
+      "Repeat": true,
+      "PosX": 0,
+      "PosY": 0,
+      "ColorKey": null
+    }
+  ],
+"Videos": [
+    {      
+      "Alias": "Trailer1",
+      "FileName": "RoboClip.avi"      
+    },
+{
+      "Alias": "Trailer2",
+      "FileName": "RoboClip.avi"      
+    },    
+    {
+      "Alias": "Trailer3",
+      "FileName": "RoboClip.avi"      
+    },
+        {
+      "Alias": "HorseIntro",
+      "FileName": "HorseIntro.avi"      
+    },
+        {
+      "Alias": "Trailer",
+      "FileName": "trailer.avi"      
+    },    
+    ]  
+
+}

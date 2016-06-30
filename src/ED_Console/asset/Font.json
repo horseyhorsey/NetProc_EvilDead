@@ -1,0 +1,29 @@
+{
+  "SdlFonts": [
+      {
+      "Alias": "default",
+      "Font": "Arial.ttf",
+      "Size": 24
+    },
+    {
+      "Alias": "ArialSmall",
+      "Font": "Arial.ttf",
+      "Size": 24
+    },
+    {
+      "Alias": "ArialMed",
+      "Font": "Arial.ttf",
+      "Size": 32
+    },
+    {
+      "Alias": "ArialLarge",
+      "Font": "Arial.ttf",
+      "Size": 42
+    },
+    {
+      "Alias": "ArialLarger",
+      "Font": "PKMN-Pinball.ttf",
+      "Size": 32
+    }
+  ]
+}

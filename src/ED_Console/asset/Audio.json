@@ -1,0 +1,73 @@
+{
+  "Music": [
+    {
+      "Name": "TestSong",
+      "FileName": "TestSong.mp3",
+      "Volume": 0.8
+    },
+        {
+      "Name": "DeadByDawnPartOne",
+      "FileName": "DeadByDawnPartOne.mp3",
+      "Volume": 0.8
+    },
+        {
+      "Name": "DeadByDawnPartTwo",
+      "FileName": "DeadByDawnPartTwo.mp3",
+      "Volume": 0.8
+    },
+        {
+      "Name": "pianoFull",
+      "FileName": "pianoFull.mp3",
+      "Volume": 0.8
+    }
+  ],
+  "Voice": [
+          {
+      "Name": "BallLaunch",
+      "FileName": "BallLaunch.ogg",
+      "Volume": 0.8
+    },
+    {
+      "Name": "AshBonus",
+      "FileName": "AshBonus.ogg",
+      "Volume": 0.8
+    },
+    {
+      "Name": "Trailer1",
+      "FileName": "Trailer1.ogg",
+      "Volume": 0.8
+    },
+    {
+      "Name" : "AshReady",
+      "FileName": "Ash/ASH_JackMeUp.ogg"
+    },
+    {
+      "Name" : "AshReady",
+      "FileName": "Ash/ASH_WhereYouBeen.ogg"
+    },    
+    {
+      "Name" : "AshReady",
+      "FileName": "Ash/ASH_ShallWeDance.ogg"
+    },       
+         {
+      "Name" : "AshReady",
+      "FileName": "Ash/Ash_GetMovin.ogg"
+    },       
+        {
+      "Name" : "AshReady",
+      "FileName": "Ash/ASH_YoureMess.ogg"
+    },
+  ],
+  "Sfx": [
+            {
+      "Name": "bump1",
+      "FileName": "bump1.ogg",
+      "Volume": 0.8
+    },
+              {
+      "Name": "bump2",
+      "FileName": "bump2.ogg",
+      "Volume": 0.8
+    }
+  ]
+}

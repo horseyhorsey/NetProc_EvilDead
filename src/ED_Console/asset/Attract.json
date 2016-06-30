@@ -1,0 +1,26 @@
+{
+  "AttractLayers": [
+      {
+      "Alias": "Trailer1",
+      "Lampshow": "attract_show_3",
+      "Sound": "HorseIntro",
+      "Duration": 5.0,
+      "Text": "This|Is|Text",
+      "Font": "default",
+      "Style": "redYellow",
+      "Blink": false
+    },
+    {
+      "Alias": "HorseIntro",
+      "Lampshow": "attract_show_3",
+      "Sound": "HorseIntro",
+      "Duration": 26.0,      
+    },
+    {
+      "Alias": "Trailer",
+      "Lampshow": "attract_show_3",
+      "Sound": "HorseIntro",
+      "Duration": 53.0,  
+    }, 
+]
+}

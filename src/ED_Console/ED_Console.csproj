@@ -48,9 +48,22 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="asset\Animation.json" />
+    <None Include="asset\Attract.json" />
+    <None Include="asset\Audio.json" />
+    <None Include="asset\Font.json" />
+    <None Include="asset\FontStyle.json" />
+    <None Include="asset\Lamp.json" />
+    <None Include="asset\Video.json" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="asset\" />
+    <Folder Include="asset\fonts\" />
+    <Folder Include="asset\gfx\" />
+    <Folder Include="asset\lampshows\" />
+    <Folder Include="asset\music\" />
+    <Folder Include="asset\sfx\" />
+    <Folder Include="asset\sound\" />
+    <Folder Include="asset\voice\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

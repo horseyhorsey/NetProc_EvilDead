@@ -1,0 +1,16 @@
+{
+  "FontStyles": [
+    {
+      "Name": "Weird",
+      "InteriorColor": "0,255,0",
+      "LineColor": "255, 0, 128",
+      "LineWidth": 1
+    },
+    {
+      "Name": "redYellow",
+      "InteriorColor": "255,0,0",
+      "LineColor": "255, 255, 51",
+      "LineWidth": 3
+    }
+  ]
+}
