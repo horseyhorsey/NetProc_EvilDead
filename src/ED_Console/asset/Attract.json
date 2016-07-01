@@ -1,26 +1,51 @@
 {
-  "AttractLayers": [
-      {
-      "Alias": "Trailer1",
-      "Lampshow": "attract_show_3",
-      "Sound": "HorseIntro",
-      "Duration": 5.0,
-      "Text": "This|Is|Text",
-      "Font": "default",
-      "Style": "redYellow",
-      "Blink": false
-    },
-    {
-      "Alias": "HorseIntro",
-      "Lampshow": "attract_show_3",
-      "Sound": "HorseIntro",
-      "Duration": 26.0,      
-    },
-    {
-      "Alias": "Trailer",
-      "Lampshow": "attract_show_3",
-      "Sound": "HorseIntro",
-      "Duration": 53.0,  
-    }, 
-]
+    "AttractLayers": [
+        {
+            "Alias": "Trailer1",
+            "Lampshow": "RightLeft32",
+            "Duration": 2.0,
+            "Text": "Winners Don't|Use|The Horse",
+            "Font": "default",
+            "Style": "redYellow",
+            "Blink": false
+        },
+        {
+            "Alias": "Trailer1",
+            "Lampshow": "centerExpand4secs",
+            "Sound": "Trailer1",
+            "Duration": 15.5
+        },
+        {
+            "Alias": "HighScores"
+        },
+        {
+            "Alias": "Trailer2",
+            "Lampshow": "swipeDown",
+            "Sound": "Trailer2",
+            "Duration": 10.2
+        },
+        {
+            "Alias": "Trailer3",
+            "Lampshow": "PageSmash",
+            "Sound": "Trailer3",
+            "Duration": 3.5
+        },
+        {
+            "Alias": "Trailer6",
+            "Sound": "Trailer6",
+            "Lampshow": "attract_show_2",
+            "Text": "Press||Start",
+            "Font": "default",
+            "Style": "redYellow",
+            "Blink": true,
+            "Duration": 2.0
+        },
+        {
+            "Alias": "Trailer5",
+            "Sound": "Trailer5",
+            "Lampshow": "leftRight",
+            "Duration": 10.0
+        }
+
+    ]
 }
