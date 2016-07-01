@@ -37,27 +37,31 @@
       "ColorKey": null
     }
   ],
-"Videos": [
-    {      
-      "Alias": "Trailer1",
-      "FileName": "RoboClip.avi"      
-    },
-{
-      "Alias": "Trailer2",
-      "FileName": "RoboClip.avi"      
-    },    
-    {
-      "Alias": "Trailer3",
-      "FileName": "RoboClip.avi"      
-    },
+    "Videos": [
         {
-      "Alias": "HorseIntro",
-      "FileName": "HorseIntro.avi"      
-    },
+            "Alias": "Trailer1",
+            "FileName": "Attract/Trailer1.mp4"
+        },
         {
-      "Alias": "Trailer",
-      "FileName": "trailer.avi"      
-    },    
+            "Alias": "HorseIntro",
+            "FileName": "HorseIntro.avi"
+        },
+        {
+            "Alias": "Trailer2",
+            "FileName": "Attract/Trailer2.mp4"
+        },
+        {
+            "Alias": "Trailer3",
+            "FileName": "Attract/Trailer3.mp4"
+        },
+        {
+            "Alias": "Trailer5",
+            "FileName": "Attract/Trailer5.mp4"
+        },
+        {
+            "Alias": "Trailer6",
+            "FileName": "Attract/Trailer6.mp4"
+        }
     ]  
 
 }
