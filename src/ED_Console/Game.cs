@@ -19,6 +19,9 @@ namespace ED_Console
 
             this.Modes.Add(attract);
 
+            this._game_data = new GameData();
+
+            
         }
     }
 }
