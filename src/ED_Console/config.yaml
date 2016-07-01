@@ -1,0 +1,12 @@
+DotsW: 558
+DotsH: 300
+DisplayScale: 1
+ScreenPositionX: 50
+ScreenPositionY: 50
+Borderless: true
+FrameRate: 23.97
+ImagesPath: asset\gfx
+FontPath: asset\fonts
+VoicePath: asset\voice
+SfxPath: asset\sfx
+MusicPath: asset\music

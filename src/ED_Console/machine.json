@@ -1,0 +1,346 @@
+{
+  "PRGame": {
+    "machineType": "WPC",
+    "numBalls": 5,
+    "displayMonitor": true
+  },
+  "PRFlippers": [
+    "flipperLwR",
+    "flipperLwL"
+  ],
+  "PRFlipperLeft": [
+    "flipperLwL",
+    "flipperUpL"
+  ],
+  "PRFlipperRight": [
+    "flipperLwR"
+  ],
+  "PRBumpers": [
+    "leftSlingshot",
+    "rightSlingshot",
+    "leftJet",
+    "rightJet",
+    "bottomJet"
+  ],
+  "PRSwitches": [
+    {
+      "Name": "flipperLwR",
+      "Type": "NO",
+      "Number": "SF2"
+    },
+    {
+      "Name": "flipperLwL",
+      "Type": "NO",
+      "Number": "SF4"
+    },
+    {
+      "Name": "flip1",
+      "Type": "NO",
+      "Number": "SF1"
+    },
+    {
+      "Name": "flip5",
+      "Type": "NO",
+      "Number": "SF5"
+    },
+    {
+      "Name": "rightHandle",
+      "Type": "NO",
+      "Number": "SF6"
+    },
+    {
+      "Name": "flip7",
+      "Type": "NO",
+      "Number": "SF7"
+    },
+    {
+      "Name": "leftHandle",
+      "Type": "NO",
+      "Number": "SF8"
+    },
+    {
+      "Name": "coinSlot1",
+      "Type": "NO",
+      "Number": "SD1"
+    },
+    {
+      "Name": "coinSlot2",
+      "Type": "NO",
+      "Number": "SD2"
+    },
+    {
+      "Name": "coinSlot3",
+      "Type": "NO",
+      "Number": "SD3"
+    },
+    {
+      "Name": "coinSlot4",
+      "Type": "NO",
+      "Number": "SD4"
+    },
+    {
+      "Name": "exit",
+      "Type": "NO",
+      "Number": "SD5"
+    },
+    {
+      "Name": "down",
+      "Type": "NO",
+      "Number": "SD6"
+    },
+    {
+      "Name": "up",
+      "Type": "NO",
+      "Number": "SD7"
+    },
+    {
+      "Name": "enter",
+      "Type": "NO",
+      "Number": "SD8"
+    },
+    {
+      "Name": "ballLaunch",
+      "Type": "NO",
+      "Number": "S11"
+    },
+    {
+      "Name": "leftHandle",
+      "Type": "NO",
+      "Number": "S12"
+    },
+    {
+      "Name": "startBut",
+      "Type": "NO",
+      "Number": "S13"
+    },
+    {
+      "Name": "plumbBobTilt",
+      "Type": "NO",
+      "Number": "S14"
+    },
+    {
+      "Name": "leftOutlane",
+      "Type": "NO",
+      "Number": "S15"
+    },
+    {
+      "Name": "leftInlane",
+      "Type": "NO",
+      "Number": "S16"
+    },
+    {
+      "Name": "rightInlane",
+      "Type": "NO",
+      "Number": "S17"
+    },
+    {
+      "Name": "rightOutlane",
+      "Type": "NO",
+      "Number": "S18"
+    },
+    {
+      "Name": "slamTilt",
+      "Type": "NO",
+      "Number": "S21"
+    },
+    {
+      "Name": "coinDoor",
+      "Type": "NO",
+      "Number": "S22"
+    },
+    {
+      "Name": "shooterLane",
+      "Type": "NO",
+      "Number": "S27"
+    },
+    {
+      "Name": "trough1",
+      "Type": "NC",
+      "Number": "S31"
+    },
+    {
+      "Name": "trough2",
+      "Type": "NC",
+      "Number": "S32"
+    },
+    {
+      "Name": "trough3",
+      "Type": "NC",
+      "Number": "S33"
+    },
+    {
+      "Name": "trough4",
+      "Type": "NC",
+      "Number": "S34"
+    },
+    {
+      "Name": "leftSlingshot",
+      "Type": "NO",
+      "Number": "S41"
+    },
+    {
+      "Name": "rightSlingshot",
+      "Type": "NO",
+      "Number": "S42"
+    },
+    {
+      "Name": "leftJet",
+      "Type": "NO",
+      "Number": "S43"
+    },
+    {
+      "Name": "bottomJet",
+      "Type": "NO",
+      "Number": "S44"
+    },
+    {
+      "Name": "rightJet",
+      "Type": "NO",
+      "Number": "S45"
+    },
+    {
+      "Name": "topRolloverL",
+      "Type": "NO",
+      "Number": "S46"
+    },
+        {
+      "Name": "topRolloverM",
+      "Type": "NO",
+      "Number": "S47"
+    },
+        {
+      "Name": "topRolloverR",
+      "Type": "NO",
+      "Number": "S48"
+    }
+  ],
+  "PRCoils": [
+    {
+      "Name": "flipperLwRMain",
+      "Number": "FLRM",
+      "PulseTime": 30
+    },
+    {
+      "Name": "flipperLwRHold",
+      "Number": "FLRH",
+      "PulseTime": 30
+    },
+    {
+      "Name": "flipperLwLMain",
+      "Number": "FLLM",
+      "PulseTime": 30
+    },
+    {
+      "Name": "flipperLwLHold",
+      "Number": "C32",
+      "PulseTime": 30
+    },
+    {
+      "Name": "flipperUpLMain",
+      "Number": "FULM",
+      "PulseTime": 30
+    },
+    {
+      "Name": "flipperUpLHold",
+      "Number": "FULH",
+      "PulseTime": 30
+    },
+    {
+      "Name": "trough",
+      "Number": "C01",
+      "PulseTime": 30
+    },
+    {
+      "Name": "ballLaunch",
+      "Number": "C03",
+      "PulseTime": 30
+    },
+    {
+      "Name": "leftSlingshot",
+      "Number": "C09",
+      "PulseTime": 30
+    },
+    {
+      "Name": "rightSlingshot",
+      "Number": "C10",
+      "PulseTime": 30
+    },
+    {
+      "Name": "leftJet",
+      "Number": "C11",
+      "PulseTime": 30
+    },
+    {
+      "Name": "rightJet",
+      "Number": "C13",
+      "PulseTime": 30
+    },
+    {
+      "Name": "bottomJet",
+      "Number": "C12",
+      "PulseTime": 30
+    }
+  ],
+  "PRLamps": [
+    {
+      "Name": "ballSave",
+      "Number": "L11"
+    },
+    {
+      "Name": "shootAgain",
+      "Number": "L12"
+    },
+    {
+      "Name": "startButton",
+      "Number": "L13"
+    }
+  ],
+  "PRGI": [
+    {
+      "Name": "gi01",
+      "Number": "G01"
+    },
+    {
+      "Name": "gi02",
+      "Number": "G02"
+    },
+    {
+      "Name": "gi03",
+      "Number": "G03"
+    },
+    {
+      "Name": "gi04",
+      "Number": "G04"
+    },
+    {
+      "Name": "gi05",
+      "Number": "G05"
+    }
+  ],
+  "PRBallSave": {
+    "PulseCoils": [
+      "leftSlingshot",
+      "rightSlingshot",
+      "leftJet",
+      "rightJet",
+      "bottomJet",
+      "eject",
+      "topPopper",
+      "bottomPopper"
+    ],
+    "ResetSwitches": {
+      "leftSlingshot": "open",
+      "rightSlingshot": "open",
+      "leftJet": "open",
+      "rightJet": "open",
+      "bottomJet": "open",
+      "leftOutlane": "open",
+      "leftInlane": "open"
+    },
+    "StopSwitches": {
+      "shooterLane": "closed",
+      "flipperLwL": "closed",
+      "flipperLwR": "closed"
+    }
+  }
+}
