@@ -1,20 +1,47 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
-using NetProcgame;
-using NetProcgame.Game;
 using NetProcgame.Logging;
+using NetProcgame.Display.Sdl;
 
 namespace ED_Console
 {
     class Program
     {
         static void Main(string[] args)
-        {
-            HorseGame game = new HorseGame(NetProcgame.NetPinproc.MachineType.WPC95, new ConsoleLogger());
+        {            
+            Task.Run(() =>
+            {
+                try
+                {
 
+                    Game game = new Game(NetProcgame.NetPinproc.MachineType.WPC95, new ConsoleLogger());
+                    
+                    game.run_loop();
+
+                }
+
+                catch (System.Exception ex)
+                {
+                    if (DisplayManager.SdlWindow != null && DisplayManager.SdlWindow.SDL_Window != IntPtr.Zero)
+                        DisplayManager.QuitSdl();
+
+                    Console.WriteLine(ex.Message + "   " + ex.InnerException);
+                    Console.WriteLine(ex.StackTrace);
+
+                    Console.ReadLine();
+
+                    Environment.Exit(-1);
+                }
+            });
+
+            string line = "";
+            while (true)
+            {
+                line = Console.ReadLine();
+
+                if (line == "q")
+                    break;
+            }
         }
     }
 }
