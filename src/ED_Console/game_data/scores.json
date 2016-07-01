@@ -1,0 +1,16 @@
+﻿{
+    "HighScores": [
+        {
+            "Title": "Champion",
+            "Name": "DUB",
+            "Score": 5000000,
+            "Date": "20/5/2015"
+        },
+        {
+            "Title": "HighScore1",
+            "Name": "DUB",
+            "Score": 4000000,
+            "Date": "20/5/2015"
+        }
+    ]
+}
