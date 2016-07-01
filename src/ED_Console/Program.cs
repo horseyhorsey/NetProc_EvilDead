@@ -11,7 +11,7 @@ namespace ED_Console
         {            
             Task.Run(() =>
             {
-                try
+                try 
                 {
 
                     Game game = new Game(NetProcgame.NetPinproc.MachineType.WPC95, new ConsoleLogger());
