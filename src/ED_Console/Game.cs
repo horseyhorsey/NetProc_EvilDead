@@ -15,13 +15,14 @@ namespace ED_Console
         public Game(MachineType machine_type, ILogger logger) :
             base(machine_type, logger)
         {
+
+            this._game_data = new GameData();
+
             var attract = new Attract(this, 20);
 
             this.Modes.Add(attract);
 
-            this._game_data = new GameData();
 
-            
         }
     }
 }

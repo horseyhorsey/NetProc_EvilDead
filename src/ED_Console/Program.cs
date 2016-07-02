@@ -29,7 +29,7 @@ namespace ED_Console
                     Console.WriteLine(ex.StackTrace);
 
                     Console.ReadLine();
-
+                     
                     Environment.Exit(-1);
                 }
             });

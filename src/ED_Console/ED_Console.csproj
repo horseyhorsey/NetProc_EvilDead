@@ -33,10 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="NetProcgame, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\_Lib\NetProcgame.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -93,6 +89,12 @@
     <Folder Include="asset\sound\" />
     <Folder Include="asset\voice\" />
     <Folder Include="modes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\NetProcgameSdl\src\NetProcgame\NetProcgame\NetProcgame.csproj">
+      <Project>{cdad34c3-855d-49de-a94f-bf89454e6bf5}</Project>
+      <Name>NetProcgame</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
