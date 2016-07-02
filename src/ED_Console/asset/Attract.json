@@ -1,46 +1,56 @@
 {
     "AttractLayers": [
         {
+            "Type": "Standard",
             "Alias": "Trailer1",
             "Lampshow": "RightLeft32",
             "Duration": 2.0,
-            "Text": "Winners Don't|Use|The Horse",
-            "Font": "default",
-            "Style": "redYellow",
-            "Blink": false
+            "Text": "{|WINNERS DON'T|USE|THE HORSE}",
+            "Font": "ed_targets",
+            "Style": "redYellowThin",            
         },
         {
+            "Type": "Standard",
             "Alias": "Trailer1",
             "Lampshow": "centerExpand4secs",
             "Sound": "Trailer1",
-            "Duration": 15.5
+            "Duration": 15.5,
         },
         {
-            "Alias": "HighScores"
+            "Type": "HighScores",
+            "Alias": "Pages",
+            "Font": "large",
+            "Style": "redYellow",
+            "Lampshow": "swipeUp",
+            "Duration": 2
         },
         {
+            "Type": "Standard",
             "Alias": "Trailer2",
             "Lampshow": "swipeDown",
             "Sound": "Trailer2",
             "Duration": 10.2
         },
         {
+            "Type": "Standard",
             "Alias": "Trailer3",
             "Lampshow": "PageSmash",
             "Sound": "Trailer3",
             "Duration": 3.5
         },
         {
+            "Type": "Standard",
             "Alias": "Trailer6",
             "Sound": "Trailer6",
             "Lampshow": "attract_show_2",
             "Text": "Press||Start",
-            "Font": "default",
+            "Font": "large",
             "Style": "redYellow",
-            "Blink": true,
+            "Blink": 1,
             "Duration": 2.0
         },
         {
+            "Type": "Standard",
             "Alias": "Trailer5",
             "Sound": "Trailer5",
             "Lampshow": "leftRight",

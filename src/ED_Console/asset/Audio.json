@@ -21,43 +21,68 @@
       "Volume": 0.8
     }
   ],
-  "Voice": [
-          {
-      "Name": "BallLaunch",
-      "FileName": "BallLaunch.ogg",
-      "Volume": 0.8
-    },
-    {
-      "Name": "AshBonus",
-      "FileName": "AshBonus.ogg",
-      "Volume": 0.8
-    },
-    {
-      "Name": "Trailer1",
-      "FileName": "Trailer1.ogg",
-      "Volume": 0.8
-    },
-    {
-      "Name" : "AshReady",
-      "FileName": "Ash/ASH_JackMeUp.ogg"
-    },
-    {
-      "Name" : "AshReady",
-      "FileName": "Ash/ASH_WhereYouBeen.ogg"
-    },    
-    {
-      "Name" : "AshReady",
-      "FileName": "Ash/ASH_ShallWeDance.ogg"
-    },       
-         {
-      "Name" : "AshReady",
-      "FileName": "Ash/Ash_GetMovin.ogg"
-    },       
+    "Voice": [
         {
-      "Name" : "AshReady",
-      "FileName": "Ash/ASH_YoureMess.ogg"
-    },
-  ],
+            "Name": "BallLaunch",
+            "FileName": "BallLaunch.ogg",
+            "Volume": 0.8
+        },
+        {
+            "Name": "AshBonus",
+            "FileName": "AshBonus.ogg",
+            "Volume": 0.8
+        },
+        {
+            "Name": "Trailer1",
+            "FileName": "Attract/Trailer1.ogg",
+            "Volume": 0.8
+        },
+        {
+            "Name": "Trailer2",
+            "FileName": "Attract/Trailer2.ogg",
+            "Volume": 0.8
+        },
+        {
+            "Name": "Trailer3",
+            "FileName": "Attract/Trailer3.ogg",
+            "Volume": 0.8
+        },
+        {
+            "Name": "Trailer4",
+            "FileName": "Attract/Trailer4.ogg",
+            "Volume": 0.8
+        },
+        {
+            "Name": "Trailer5",
+            "FileName": "Attract/Trailer5.ogg",
+            "Volume": 0.8
+        },
+        {
+            "Name": "Trailer6",
+            "FileName": "Attract/Trailer6.ogg",
+            "Volume": 0.8
+        },
+        {
+            "Name": "AshReady",
+            "FileName": "Ash/ASH_JackMeUp.ogg"
+        },
+        {
+            "Name": "AshReady",
+            "FileName": "Ash/ASH_WhereYouBeen.ogg"
+        },
+        {
+            "Name": "AshReady",
+            "FileName": "Ash/ASH_ShallWeDance.ogg"
+        },
+        {
+            "Name": "AshReady",
+            "FileName": "Ash/Ash_GetMovin.ogg"
+        },
+        {
+            "Name": "AshReady",
+            "FileName": "Ash/ASH_YoureMess.ogg"
+        }
+    ],
   "Sfx": [
             {
       "Name": "bump1",

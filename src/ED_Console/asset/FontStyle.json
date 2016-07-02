@@ -11,6 +11,18 @@
       "InteriorColor": "255,0,0",
       "LineColor": "255, 255, 51",
       "LineWidth": 3
-    }
+    },
+    {
+      "Name": "redYellowThin",
+      "InteriorColor": "255,0,0",
+      "LineColor": "255, 255, 51",
+      "LineWidth": 2
+    },    
+    {
+      "Name": "redYel",
+      "InteriorColor": "255,0,0",
+      "LineColor": "255, 255, 51",
+      "LineWidth": 0
+    }        
   ]
 }

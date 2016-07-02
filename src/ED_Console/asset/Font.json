@@ -24,6 +24,31 @@
       "Alias": "ArialLarger",
       "Font": "PKMN-Pinball.ttf",
       "Size": 32
-    }
+    },
+    {
+      "Alias": "EDLarge",
+      "Font": "EVILDEAD.ttf",
+      "Size": 62
+    },
+    {
+      "Alias": "ed_common",
+      "Font": "EVILDEAD.ttf",
+      "Size": 32
+    },        
+    {
+      "Alias": "ed_targets",
+      "Font": "EVILDEAD.ttf",
+      "Size": 48
+    },        
+    {
+      "Alias": "FeastLarge",
+      "Font": "FEASFBI_.ttf",
+      "Size": 62
+    },    
+    {
+      "Alias": "large",
+      "Font": "Oswald-Heavy.ttf",
+      "Size": 62
+    },       
   ]
 }
