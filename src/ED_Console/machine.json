@@ -22,279 +22,556 @@
     "rightJet",
     "bottomJet"
   ],
-  "PRSwitches": [
-    {
-      "Name": "flipperLwR",
-      "Type": "NO",
-      "Number": "SF2"
-    },
-    {
-      "Name": "flipperLwL",
-      "Type": "NO",
-      "Number": "SF4"
-    },
-    {
-      "Name": "flip1",
-      "Type": "NO",
-      "Number": "SF1"
-    },
-    {
-      "Name": "flip5",
-      "Type": "NO",
-      "Number": "SF5"
-    },
-    {
-      "Name": "rightHandle",
-      "Type": "NO",
-      "Number": "SF6"
-    },
-    {
-      "Name": "flip7",
-      "Type": "NO",
-      "Number": "SF7"
-    },
-    {
-      "Name": "leftHandle",
-      "Type": "NO",
-      "Number": "SF8"
-    },
-    {
-      "Name": "coinSlot1",
-      "Type": "NO",
-      "Number": "SD1"
-    },
-    {
-      "Name": "coinSlot2",
-      "Type": "NO",
-      "Number": "SD2"
-    },
-    {
-      "Name": "coinSlot3",
-      "Type": "NO",
-      "Number": "SD3"
-    },
-    {
-      "Name": "coinSlot4",
-      "Type": "NO",
-      "Number": "SD4"
-    },
-    {
-      "Name": "exit",
-      "Type": "NO",
-      "Number": "SD5"
-    },
-    {
-      "Name": "down",
-      "Type": "NO",
-      "Number": "SD6"
-    },
-    {
-      "Name": "up",
-      "Type": "NO",
-      "Number": "SD7"
-    },
-    {
-      "Name": "enter",
-      "Type": "NO",
-      "Number": "SD8"
-    },
-    {
-      "Name": "ballLaunch",
-      "Type": "NO",
-      "Number": "S11"
-    },
-    {
-      "Name": "leftHandle",
-      "Type": "NO",
-      "Number": "S12"
-    },
-    {
-      "Name": "startBut",
-      "Type": "NO",
-      "Number": "S13"
-    },
-    {
-      "Name": "plumbBobTilt",
-      "Type": "NO",
-      "Number": "S14"
-    },
-    {
-      "Name": "leftOutlane",
-      "Type": "NO",
-      "Number": "S15"
-    },
-    {
-      "Name": "leftInlane",
-      "Type": "NO",
-      "Number": "S16"
-    },
-    {
-      "Name": "rightInlane",
-      "Type": "NO",
-      "Number": "S17"
-    },
-    {
-      "Name": "rightOutlane",
-      "Type": "NO",
-      "Number": "S18"
-    },
-    {
-      "Name": "slamTilt",
-      "Type": "NO",
-      "Number": "S21"
-    },
-    {
-      "Name": "coinDoor",
-      "Type": "NO",
-      "Number": "S22"
-    },
-    {
-      "Name": "shooterLane",
-      "Type": "NO",
-      "Number": "S27"
-    },
-    {
-      "Name": "trough1",
-      "Type": "NC",
-      "Number": "S31"
-    },
-    {
-      "Name": "trough2",
-      "Type": "NC",
-      "Number": "S32"
-    },
-    {
-      "Name": "trough3",
-      "Type": "NC",
-      "Number": "S33"
-    },
-    {
-      "Name": "trough4",
-      "Type": "NC",
-      "Number": "S34"
-    },
-    {
-      "Name": "leftSlingshot",
-      "Type": "NO",
-      "Number": "S41"
-    },
-    {
-      "Name": "rightSlingshot",
-      "Type": "NO",
-      "Number": "S42"
-    },
-    {
-      "Name": "leftJet",
-      "Type": "NO",
-      "Number": "S43"
-    },
-    {
-      "Name": "bottomJet",
-      "Type": "NO",
-      "Number": "S44"
-    },
-    {
-      "Name": "rightJet",
-      "Type": "NO",
-      "Number": "S45"
-    },
-    {
-      "Name": "topRolloverL",
-      "Type": "NO",
-      "Number": "S46"
-    },
+    "PRSwitches": [
         {
-      "Name": "topRolloverM",
-      "Type": "NO",
-      "Number": "S47"
-    },
+            "Name": "flipperLwR",
+            "Type": "NO",
+            "Number": "SF2"
+        },
         {
-      "Name": "topRolloverR",
-      "Type": "NO",
-      "Number": "S48"
-    }
-  ],
-  "PRCoils": [
-    {
-      "Name": "flipperLwRMain",
-      "Number": "FLRM",
-      "PulseTime": 30
-    },
-    {
-      "Name": "flipperLwRHold",
-      "Number": "FLRH",
-      "PulseTime": 30
-    },
-    {
-      "Name": "flipperLwLMain",
-      "Number": "FLLM",
-      "PulseTime": 30
-    },
-    {
-      "Name": "flipperLwLHold",
-      "Number": "C32",
-      "PulseTime": 30
-    },
-    {
-      "Name": "flipperUpLMain",
-      "Number": "FULM",
-      "PulseTime": 30
-    },
-    {
-      "Name": "flipperUpLHold",
-      "Number": "FULH",
-      "PulseTime": 30
-    },
-    {
-      "Name": "trough",
-      "Number": "C01",
-      "PulseTime": 30
-    },
-    {
-      "Name": "ballLaunch",
-      "Number": "C03",
-      "PulseTime": 30
-    },
-    {
-      "Name": "leftSlingshot",
-      "Number": "C09",
-      "PulseTime": 30
-    },
-    {
-      "Name": "rightSlingshot",
-      "Number": "C10",
-      "PulseTime": 30
-    },
-    {
-      "Name": "leftJet",
-      "Number": "C11",
-      "PulseTime": 30
-    },
-    {
-      "Name": "rightJet",
-      "Number": "C13",
-      "PulseTime": 30
-    },
-    {
-      "Name": "bottomJet",
-      "Number": "C12",
-      "PulseTime": 30
-    }
-  ],
-  "PRLamps": [
-    {
-      "Name": "ballSave",
-      "Number": "L11"
-    },
-    {
-      "Name": "shootAgain",
-      "Number": "L12"
-    },
-    {
-      "Name": "startButton",
-      "Number": "L13"
-    }
-  ],
+            "Name": "flipperLwL",
+            "Type": "NO",
+            "Number": "SF4"
+        },
+        {
+            "Name": "flip1",
+            "Type": "NO",
+            "Number": "SF1"
+        },
+        {
+            "Name": "flip5",
+            "Type": "NO",
+            "Number": "SF5"
+        },
+        {
+            "Name": "rightHandle",
+            "Type": "NO",
+            "Number": "SF6"
+        },
+        {
+            "Name": "flip7",
+            "Type": "NO",
+            "Number": "SF7"
+        },
+        {
+            "Name": "leftHandle",
+            "Type": "NO",
+            "Number": "SF8"
+        },
+        {
+            "Name": "coinSlot1",
+            "Type": "NO",
+            "Number": "SD1"
+        },
+        {
+            "Name": "coinSlot2",
+            "Type": "NO",
+            "Number": "SD2"
+        },
+        {
+            "Name": "coinSlot3",
+            "Type": "NO",
+            "Number": "SD3"
+        },
+        {
+            "Name": "coinSlot4",
+            "Type": "NO",
+            "Number": "SD4"
+        },
+        {
+            "Name": "exit",
+            "Type": "NO",
+            "Number": "SD5"
+        },
+        {
+            "Name": "down",
+            "Type": "NO",
+            "Number": "SD6"
+        },
+        {
+            "Name": "up",
+            "Type": "NO",
+            "Number": "SD7"
+        },
+        {
+            "Name": "enter",
+            "Type": "NO",
+            "Number": "SD8"
+        },
+        {
+            "Name": "ballLaunch",
+            "Type": "NO",
+            "Number": "S11"
+        },
+        {
+            "Name": "leftHandle",
+            "Type": "NO",
+            "Number": "S12"
+        },
+        {
+            "Name": "startButton",
+            "Type": "NO",
+            "Number": "S13"
+        },
+        {
+            "Name": "RightCoin",
+            "Type": "NO",
+            "Number": "S14"
+        },
+        {
+            "Name": "CenterCoin",
+            "Type": "NO",
+            "Number": "S15"
+        },
+        {
+            "Name": "coin",
+            "Type": "NO",
+            "Number": "S16"
+        },
+        {
+            "Name": "slamTilt",
+            "Type": "NO",
+            "Number": "S17"
+        },
+        {
+            "Name": "ballShooter",
+            "Type": "NO",
+            "Number": "S18"
+        },
+        {
+            "Name": "kickOut",
+            "Type": "NO",
+            "Number": "S21"
+        },
+        {
+            "Name": "coinDoor",
+            "Type": "NC",
+            "Number": "S22"
+        },
+        {
+            "Name": "unused23",
+            "Type": "NC",
+            "Number": "S23"
+        },
+        {
+            "Name": "unused24",
+            "Type": "NC",
+            "Number": "S24"
+        },
+        {
+            "Name": "unused25",
+            "Type": "NC",
+            "Number": "S25"
+        },
+        {
+            "Name": "shooter",
+            "Type": "NO",
+            "Number": "S26"
+        },
+        {
+            "Name": "leftOutLane",
+            "Type": "NO",
+            "Number": "S31"
+        },
+        {
+            "Name": "leftReturn",
+            "Type": "NO",
+            "Number": "S32"
+        },
+        {
+            "Name": "rightOutlane",
+            "Type": "NO",
+            "Number": "S33"
+        },
+        {
+            "Name": "rightReturn",
+            "Type": "NO",
+            "Number": "S34"
+        },
+        {
+            "Name": "slingL",
+            "Type": "NO",
+            "Number": "S35"
+        },
+        {
+            "Name": "slingR",
+            "Type": "NO",
+            "Number": "S36"
+        },
+        {
+            "Name": "topDropTarget",
+            "Type": "NO",
+            "Number": "S37"
+        },
+        {
+            "Name": "rightOrbit",
+            "Type": "NO",
+            "Number": "S38"
+        },
+        {
+            "Name": "topRolloverL",
+            "Type": "NO",
+            "Number": "S41"
+        },
+        {
+            "Name": "topRolloverM",
+            "Type": "NO",
+            "Number": "S42"
+        },
+        {
+            "Name": "topRolloverR",
+            "Type": "NO",
+            "Number": "S43"
+        },
+        {
+            "Name": "handHit",
+            "Type": "NO",
+            "Number": "S44"
+        },
+        {
+            "Name": "leftEject",
+            "Type": "NO",
+            "Number": "S45"
+        },
+        {
+            "Name": "rightE",
+            "Type": "NO",
+            "Number": "S46"
+        },
+        {
+            "Name": "leftRamp",
+            "Type": "NO",
+            "Number": "S47"
+        },
+        {
+            "Name": "cellarRamp",
+            "Type": "NO",
+            "Number": "S48"
+        },
+        {
+            "Name": "outhole",
+            "Type": "NO",
+            "Number": "S81"
+        },
+        {
+            "Name": "trough1",
+            "Type": "NO",
+            "Number": "S82"
+        },
+        {
+            "Name": "trough2",
+            "Type": "NO",
+            "Number": "S83"
+        },
+        {
+            "Name": "trough3",
+            "Type": "NO",
+            "Number": "S84"
+        },
+        {
+            "Name": "trough4",
+            "Type": "NO",
+            "Number": "S85"
+        }
+    ],
+    "PRCoils": [
+        {
+            "Name": "flipperLwRMain",
+            "Number": "FLRM",
+            "PulseTime": 30
+        },
+        {
+            "Name": "flipperLwRHold",
+            "Number": "FLRH",
+            "PulseTime": 30
+        },
+        {
+            "Name": "flipperLwLMain",
+            "Number": "FLLM",
+            "PulseTime": 30
+        },
+        {
+            "Name": "flipperLwLHold",
+            "Number": "C32",
+            "PulseTime": 30
+        },
+        {
+            "Name": "flipperUpLMain",
+            "Number": "FULM",
+            "PulseTime": 30
+        },
+        {
+            "Name": "flipperUpLHold",
+            "Number": "FULH",
+            "PulseTime": 30
+        },
+        {
+            "Name": "outhole",
+            "Number": "C01",
+            "PulseTime": 30
+        },
+        {
+            "Name": "trough",
+            "Number": "C02",
+            "PulseTime": 30
+        },
+        {
+            "Name": "leftEject",
+            "Number": "C03",
+            "PulseTime": 30
+        },
+        {
+            "Name": "ledRainbow",
+            "Number": "C04",
+            "PulseTime": 30
+        },
+        {
+            "Name": "rightEject",
+            "Number": "C05",
+            "PulseTime": 30
+        },
+        {
+            "Name": "vuk",
+            "Number": "C06",
+            "PulseTime": 30
+        },
+        {
+            "Name": "LEDStripL",
+            "Number": "C07",
+            "PulseTime": 30
+        },
+        {
+            "Name": "LEDStripM",
+            "Number": "C08",
+            "PulseTime": 30
+        },
+        {
+            "Name": "LEDStripR",
+            "Number": "C09",
+            "PulseTime": 30
+        },
+        {
+            "Name": "plunger",
+            "Number": "C10",
+            "PulseTime": 30
+        },
+        {
+            "Name": "kickback",
+            "Number": "C11",
+            "PulseTime": 30
+        },
+        {
+            "Name": "cellarHatch",
+            "Number": "C12",
+            "PulseTime": 30
+        },
+        {
+            "Name": "henrietta",
+            "Number": "C13",
+            "PulseTime": 30
+        },
+        {
+            "Name": "rightFlash",
+            "Number": "C14",
+            "PulseTime": 30
+        },
+        {
+            "Name": "topDropTarget",
+            "Number": "C15",
+            "PulseTime": 30
+        },
+        {
+            "Name": "scottyKick",
+            "Number": "C16",
+            "PulseTime": 30
+        },
+        {
+            "Name": "ledRed",
+            "Number": "C17",
+            "PulseTime": 30
+        },
+        {
+            "Name": "handDrop1",
+            "Number": "C18",
+            "PulseTime": 30
+        },
+        {
+            "Name": "handDrop2",
+            "Number": "C19",
+            "PulseTime": 30
+        },
+        {
+            "Name": "handDrop3",
+            "Number": "C20",
+            "PulseTime": 30
+        },
+        {
+            "Name": "handDrop4",
+            "Number": "C21",
+            "PulseTime": 30
+        },
+        {
+            "Name": "slingL",
+            "Number": "C22",
+            "PulseTime": 30
+        },
+        {
+            "Name": "slingR",
+            "Number": "C23",
+            "PulseTime": 30
+        },
+        {
+            "Name": "diverter",
+            "Number": "C24",
+            "PulseTime": 30
+        },
+        {
+            "Name": "flasherMode",
+            "Number": "C25",
+            "PulseTime": 30
+        },
+        {
+            "Name": "flasherCellar",
+            "Number": "C26",
+            "PulseTime": 30
+        },
+        {
+            "Name": "flasherWoods",
+            "Number": "C27",
+            "PulseTime": 30
+        },
+        {
+            "Name": "flasherEye",
+            "Number": "C28",
+            "PulseTime": 30
+        },
+        {
+            "Name": "flasherHouse",
+            "Number": "C34",
+            "PulseTime": 30
+        },
+        {
+            "Name": "flasherCar",
+            "Number": "C38",
+            "PulseTime": 30
+        },
+        {
+            "Name": "flasherTopRight",
+            "Number": "C57",
+            "PulseTime": 30
+        },
+        //{
+        //    "Name": "knocker",
+        //    "Number": "C43",
+        //    "PulseTime": 30
+        //},
+        {
+            "Name": "ledOrg",
+            "Number": "C53",
+            "PulseTime": 30
+        },
+        {
+            "Name": "ledYel",
+            "Number": "C54",
+            "PulseTime": 30
+        },
+        {
+            "Name": "ledGreen",
+            "Number": "C55",
+            "PulseTime": 30
+        },
+        {
+            "Name": "ledBlue",
+            "Number": "C56",
+            "PulseTime": 30
+        },
+        {
+            "Name": "henriettaMiddle",
+            "Number": "C62",
+            "PulseTime": 30
+        },
+        {
+            "Name": "henriettaSpin",
+            "Number": "C61",
+            "PulseTime": 30
+        },
+        {
+            "Name": "disableBumpSlings",
+            "Number": "C63",
+            "PulseTime": 30
+        }
+
+    ],
+    "PRLamps": [
+        {
+            "Name": "Mode1",
+            "Number": "L11"
+        },
+        {
+            "Name": "Mode2",
+            "Number": "L12"
+        },
+        {
+            "Name": "Mode3",
+            "Number": "L13"
+        },
+        {
+            "Name": "Mode4",
+            "Number": "L14"
+        },
+        {
+            "Name": "Mode5",
+            "Number": "L15"
+        },
+        {
+            "Name": "Cards1",
+            "Number": "L16"
+        },
+        {
+            "Name": "Cards2",
+            "Number": "L17"
+        },
+        {
+            "Name": "Cards3",
+            "Number": "L18"
+        },
+        {
+            "Name": "Cards4",
+            "Number": "L21"
+        },
+        {
+            "Name": "Cards5",
+            "Number": "L22"
+        },
+        {
+            "Name": "shootAgain",
+            "Number": "L38"
+        },
+        {
+            "Name": "Cellar",
+            "Number": "L53"
+        },
+        {
+            "Name": "cEllar",
+            "Number": "L54"
+        },
+        {
+            "Name": "ceLlar",
+            "Number": "L55"
+        },
+        {
+            "Name": "celLar",
+            "Number": "L56"
+        },
+        {
+            "Name": "cellAr",
+            "Number": "L57"
+        },
+        {
+            "Name": "cellaR",
+            "Number": "L58"
+        }
+    ],
   "PRGI": [
     {
       "Name": "gi01",
@@ -319,23 +596,23 @@
   ],
   "PRBallSave": {
     "PulseCoils": [
-      "leftSlingshot",
-      "rightSlingshot",
-      "leftJet",
-      "rightJet",
-      "bottomJet",
-      "eject",
-      "topPopper",
-      "bottomPopper"
+      //"leftSlingshot",
+      //"rightSlingshot",
+      //"leftJet",
+      //"rightJet",
+      //"bottomJet",
+      //"eject",
+      //"topPopper",
+      //"bottomPopper"
     ],
     "ResetSwitches": {
-      "leftSlingshot": "open",
-      "rightSlingshot": "open",
-      "leftJet": "open",
-      "rightJet": "open",
-      "bottomJet": "open",
-      "leftOutlane": "open",
-      "leftInlane": "open"
+      //"leftSlingshot": "open",
+      //"rightSlingshot": "open",
+      //"leftJet": "open",
+      //"rightJet": "open",
+      //"bottomJet": "open",
+      //"leftOutlane": "open",
+      //"leftInlane": "open"
     },
     "StopSwitches": {
       "shooterLane": "closed",
