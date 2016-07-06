@@ -1,0 +1,7 @@
+﻿//#Bind switches to Sdl Keys
+{
+    "SDLK_1": "startButton",
+    "SDLK_2": "shooterLane",
+    "SDLK_7": "down",
+    "SDLK_8": "up"
+}
