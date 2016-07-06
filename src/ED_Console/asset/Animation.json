@@ -65,6 +65,14 @@
         {
             "Alias": "Pages",
             "FileName": "Pages/Pages.mp4"
+        },
+        {
+            "Alias": "CellarRamp",
+            "FileName": "CellarRamp.mp4"
+        },
+        {
+            "Alias": "CellarOpen",
+            "FileName": "Cellar-Open.mp4"
         }
     ]  
 
