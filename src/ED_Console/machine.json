@@ -26,37 +26,12 @@
         {
             "Name": "flipperLwR",
             "Type": "NO",
-            "Number": "SF2"
+            "Number": "S28"
         },
         {
             "Name": "flipperLwL",
             "Type": "NO",
-            "Number": "SF4"
-        },
-        {
-            "Name": "flip1",
-            "Type": "NO",
-            "Number": "SF1"
-        },
-        {
-            "Name": "flip5",
-            "Type": "NO",
-            "Number": "SF5"
-        },
-        {
-            "Name": "rightHandle",
-            "Type": "NO",
-            "Number": "SF6"
-        },
-        {
-            "Name": "flip7",
-            "Type": "NO",
-            "Number": "SF7"
-        },
-        {
-            "Name": "leftHandle",
-            "Type": "NO",
-            "Number": "SF8"
+            "Number": "S27"
         },
         {
             "Name": "coinSlot1",
@@ -247,6 +222,116 @@
             "Name": "cellarRamp",
             "Type": "NO",
             "Number": "S48"
+        },
+        {
+            "Name": "Target1",
+            "Type": "NO",
+            "Number": "S51"
+        },
+        {
+            "Name": "Target2",
+            "Type": "NO",
+            "Number": "S52"
+        },
+        {
+            "Name": "Target3",
+            "Type": "NO",
+            "Number": "S53"
+        },
+        {
+            "Name": "Target4",
+            "Type": "NO",
+            "Number": "S54"
+        },
+        {
+            "Name": "Target5",
+            "Type": "NO",
+            "Number": "S55"
+        },
+        {
+            "Name": "Target6",
+            "Type": "NO",
+            "Number": "S56"
+        },
+        {
+            "Name": "henriettaSwitch",
+            "Type": "NO",
+            "Number": "S57"
+        },
+        {
+            "Name": "rampDiverted",
+            "Type": "NO",
+            "Number": "S58"
+        },
+        {
+            "Name": "Evil",
+            "Type": "NO",
+            "Number": "S61"
+        },
+        {
+            "Name": "eVil",
+            "Type": "NO",
+            "Number": "S62"
+        },
+        {
+            "Name": "evIl",
+            "Type": "NO",
+            "Number": "S63"
+        },
+        {
+            "Name": "eviL",
+            "Type": "NO",
+            "Number": "S64"
+        },
+        {
+            "Name": "vukswitch",
+            "Type": "NO",
+            "Number": "S65"
+        },
+        {
+            "Name": "bumperL",
+            "Type": "NO",
+            "Number": "S66"
+        },
+        {
+            "Name": "bumperM",
+            "Type": "NO",
+            "Number": "S67"
+        },
+        {
+            "Name": "handDrop1",
+            "Type": "NO",
+            "Number": "S71"
+        },
+        {
+            "Name": "handDrop2",
+            "Type": "NO",
+            "Number": "S72"
+        },
+        {
+            "Name": "handDrop3",
+            "Type": "NO",
+            "Number": "S73"
+        },
+        {
+            "Name": "handDrop4",
+            "Type": "NO",
+            "Number": "S74"
+        },
+        {
+            "Name": "leftRampFull",
+            "Type": "NO",
+            "Number": "S75"
+        },
+        {
+            "Name": "scottyKicker",
+            "Type": "NO",
+            "Number": "S76"
+        },
+        {
+            "Name": "henriettaBig",
+            "Type": "NO",
+            "Number": "S77"
         },
         {
             "Name": "outhole",
@@ -544,8 +629,100 @@
             "Number": "L22"
         },
         {
+            "Name": "bonus1",
+            "Number": "L23"
+        },
+        {
+            "Name": "bonus2",
+            "Number": "L24"
+        },
+        {
+            "Name": "bonus3",
+            "Number": "L25"
+        },
+        {
+            "Name": "bonus4",
+            "Number": "L26"
+        },
+        {
+            "Name": "bonus5",
+            "Number": "L27"
+        },
+        {
+            "Name": "ArrowModeStart",
+            "Number": "L28"
+        },
+        {
+            "Name": "LaneD",
+            "Number": "L31"
+        },
+        {
+            "Name": "LaneE",
+            "Number": "L32"
+        },
+        {
+            "Name": "LaneA",
+            "Number": "L33"
+        },
+        {
+            "Name": "LaneDR",
+            "Number": "L34"
+        },
+        {
+            "Name": "Top_A",
+            "Number": "L35"
+        },
+        {
+            "Name": "Top_S",
+            "Number": "L36"
+        },
+        {
+            "Name": "Top_H",
+            "Number": "L37"
+        },
+        {
             "Name": "shootAgain",
             "Number": "L38"
+        },
+        {
+            "Name": "T1_Lamp",
+            "Number": "L41"
+        },
+        {
+            "Name": "T2_Lamp",
+            "Number": "L42"
+        },
+        {
+            "Name": "T3_Lamp",
+            "Number": "L43"
+        },
+        {
+            "Name": "T4_Lamp",
+            "Number": "L44"
+        },
+        {
+            "Name": "T5_Lamp",
+            "Number": "L45"
+        },
+        {
+            "Name": "T6_Lamp",
+            "Number": "L46"
+        },
+        {
+            "Name": "ArrowCellar",
+            "Number": "L47"
+        },
+        {
+            "Name": "ArrowShed",
+            "Number": "L48"
+        },
+        {
+            "Name": "ArrowRampLoop",
+            "Number": "L51"
+        },
+        {
+            "Name": "ArrowOrbit",
+            "Number": "L52"
         },
         {
             "Name": "Cellar",
@@ -570,6 +747,90 @@
         {
             "Name": "cellaR",
             "Number": "L58"
+        },
+        {
+            "Name": "Scotty2Ball",
+            "Number": "L61"
+        },
+        {
+            "Name": "WShedMBall",
+            "Number": "L62"
+        },
+        {
+            "Name": "CellarMBall",
+            "Number": "L63"
+        },
+        {
+            "Name": "deadbydawn",
+            "Number": "L64"
+        },
+        {
+            "Name": "jackpotLeft",
+            "Number": "L65"
+        },
+        {
+            "Name": "jackpotRight",
+            "Number": "L66"
+        },
+        {
+            "Name": "SlingL",
+            "Number": "L67"
+        },
+        {
+            "Name": "SlingR",
+            "Number": "L68"
+        },
+        {
+            "Name": "Shed1Lock",
+            "Number": "L71"
+        },
+        {
+            "Name": "Shed2Lock",
+            "Number": "L72"
+        },
+        {
+            "Name": "Shed3Lock",
+            "Number": "L73"
+        },
+        {
+            "Name": "Evil",
+            "Number": "L74"
+        },
+        {
+            "Name": "eVil",
+            "Number": "L75"
+        },
+        {
+            "Name": "evIl",
+            "Number": "L76"
+        },
+        {
+            "Name": "eviL",
+            "Number": "L77"
+        },
+        {
+            "Name": "ArrowWoodsKicker",
+            "Number": "L78"
+        },
+        {
+            "Name": "ScottyLamp",
+            "Number": "L81"
+        },
+        {
+            "Name": "extraBall",
+            "Number": "L82"
+        },
+        {
+            "Name": "collectDead",
+            "Number": "L83"
+        },
+        {
+            "Name": "jackpotCellar",
+            "Number": "L84"
+        },
+        {
+            "Name": "finalBattle",
+            "Number": "L85"
         }
     ],
   "PRGI": [
