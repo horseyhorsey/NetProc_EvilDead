@@ -232,14 +232,16 @@ namespace ED_Console.Modes
 
         }
 
-        private void CellarIsReady()
+        public bool CellarIsReady()
         {
-   //         if self.locked_balls == 2:
-			//self.game.sound.fadeout_music(50)
-
-   //         self.game.sound.play_music('MockingBird', -1)
-
-   //         return True
+            if (_lockedBalls == 2)
+            {
+                _game._sound.FadeOutMusic(50);
+                _game._sound.PlayMusic("MockingBird", -1);
+                return true;
+            }
+            else
+                return false;        
         }
         private void CheckCellarDone()
         {

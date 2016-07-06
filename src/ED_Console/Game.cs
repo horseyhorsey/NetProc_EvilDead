@@ -21,7 +21,9 @@ namespace ED_Console
         #endregion
 
         public List<EdPlayer> EdPlayers;
-        
+
+        public bool TiltStatus { get; internal set; }
+
         public Game(MachineType machine_type, ILogger logger) :
             base(machine_type, logger)
         {

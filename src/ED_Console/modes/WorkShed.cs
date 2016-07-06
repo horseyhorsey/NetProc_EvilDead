@@ -9,7 +9,7 @@ namespace ED_Console.Modes
 
         public WorkShed(Game game, int priority) : base(game, priority)
         {
-
+            _game = game;
         }
 
         public override void mode_started()
