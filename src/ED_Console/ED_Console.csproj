@@ -43,6 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="modes\AshRollOver.cs" />
+    <Compile Include="modes\BaseMode.cs" />
+    <Compile Include="modes\CellarMBall.cs" />
+    <Compile Include="modes\CellarRamp.cs" />
+    <Compile Include="modes\LeftRamp.cs" />
+    <Compile Include="modes\PageMode.cs" />
+    <Compile Include="modes\ScottyMBall.cs" />
+    <Compile Include="modes\ShedMball.cs" />
+    <Compile Include="modes\Skillshot.cs" />
+    <Compile Include="PlayerEd.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -76,6 +86,9 @@
     <None Include="game_data\scores.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="keyboard.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="machine.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -88,9 +101,12 @@
     <Folder Include="asset\sfx\" />
     <Folder Include="asset\sound\" />
     <Folder Include="asset\voice\" />
-    <Folder Include="modes\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\NetProcgameSdl\src\Assets\NetProcgame.Asset\NetProcgame.Asset.Model.csproj">
+      <Project>{0C92805B-1AAF-4BD2-AA52-99A82462216E}</Project>
+      <Name>NetProcgame.Asset.Model</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\NetProcgameSdl\src\NetProcgame\NetProcgame\NetProcgame.csproj">
       <Project>{cdad34c3-855d-49de-a94f-bf89454e6bf5}</Project>
       <Name>NetProcgame</Name>
