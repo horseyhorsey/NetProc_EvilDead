@@ -359,19 +359,19 @@ namespace ED_Console.modes
                 _game.game_config.DotsW / 2,
                 15, "ed_LeftRamp1",
                 FontJustify.Center, FontJustify.Bottom,
-                AssetService.Styles["redYellow"]);
+                "redYellow");
 
             _Text2 = new SdlTextLayer(
                 _game.game_config.DotsW / 2,
                 15, "ed_LeftRamp1",
                 FontJustify.Center, FontJustify.Bottom,
-                AssetService.Styles["redYellow"]);
+                "redYellow");
 
             ComboText = new SdlTextLayer(
                 _game.game_config.DotsW / 2,
                 _game.game_config.DotsH, "ed_LeftRamp1",
                 FontJustify.Center, FontJustify.Bottom,
-                AssetService.Styles["redYellow"]);
+                "redYellow");
 
             resetText();
 

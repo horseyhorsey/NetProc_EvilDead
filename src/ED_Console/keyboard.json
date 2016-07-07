@@ -3,5 +3,11 @@
     "SDLK_1": "startButton",
     "SDLK_2": "shooterLane",
     "SDLK_7": "down",
-    "SDLK_8": "up"
+    "SDLK_8": "up",
+    "SDLK_a": "Target1",
+    "SDLK_s": "Target2",
+    "SDLK_d": "Target3",
+    "SDLK_f": "Target4",
+    "SDLK_g": "Target5",
+    "SDLK_h": "Target6"
 }

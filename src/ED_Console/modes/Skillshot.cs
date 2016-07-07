@@ -33,10 +33,10 @@ namespace ED_Console.Modes
             var anim = AssetService.Animations["DeerWall"];
 
             var skillBonusText10K = new SdlTextLayer(150, 210,"ed_common", FontJustify.Center,false);
-            skillBonusText10K.SetText("10,000", -1, 2, AssetService.Styles["redYellow"]);
+            skillBonusText10K.SetText("10,000", -1, 2);
 
-            var skillBonusText1M = _game.DisplayHelper.GenerateLayer("1,000,000", font: "ed_common", style: AssetService.Styles["redYellow"]);
-            var skillBonus100K = _game.DisplayHelper.GenerateLayer("100,000", font: "ed_common", style: AssetService.Styles["redYellow"]);
+            var skillBonusText1M = _game.DisplayHelper.GenerateMultiTextLayer("1,000,000", font: "ed_common", styleName:"redYellow");
+            var skillBonus100K = _game.DisplayHelper.GenerateMultiTextLayer("100,000", font: "ed_common", styleName:"redYellow");
             
             var skillBonusLeft10k = new GroupedLayer(HorseGame.DisplayConfig.DotsW, HorseGame.DisplayConfig.DotsH, new List<Layer>() { anim, skillBonusText10K });
 

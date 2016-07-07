@@ -18,6 +18,7 @@ namespace ED_Console
         public ScottyMBall ScottyMultiBall;
         public ShedMball ShedMultiball;
         public CellarRamp CellarRampMode;
+        public Targets TargetsMode;
         #endregion
 
         public List<EdPlayer> EdPlayers;
@@ -38,10 +39,12 @@ namespace ED_Console
             SkillshotMode = new Skillshot(this, 3);
             PagesMode = new PageMode(this,5);
             CellarRampMode = new CellarRamp(this, 6);
+            TargetsMode = new Targets(this, 25);
 
             Modes.Add(ScoreDisplay);
             Modes.Add(BaseMode);
             Modes.Add(AttractMode);
+            Modes.Add(TargetsMode);
 
         }
 

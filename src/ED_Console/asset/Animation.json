@@ -1,42 +1,50 @@
 {
-  "Animations": [
-    {
-      "Alias": "texture",
-      "FileName": "texture.png",
-      "FrameTime": 1,
-      "Repeat": true,
-      "PosX": 0,
-      "PosY": 0,
-      "ColorKey": null
-    },
-    {
-      "Alias": "light_texture",
-      "FileName": "light_texture.png",
-      "FrameTime": 1,
-      "Repeat": true,
-      "PosX": 0,
-      "PosY": 0,
-      "ColorKey": null
-    },
-    {
-      "Alias": "DeerWall",
-      "FileName": "DeerWall.png",
-      "FrameTime": 1,
-      "Repeat": true,
-      "PosX": 0,
-      "PosY": 0,
-      "ColorKey": null
-    },
-    {
-      "Alias": "BloodSplat",
-      "FileName": "Blood/BloodSplat%04d.png",
-      "FrameTime": 1,
-      "Repeat": true,
-      "PosX": 0,
-      "PosY": 0,
-      "ColorKey": null
-    }
-  ],
+    "Animations": [
+        {
+            "Alias": "shedPic",
+            "FileName": "stills/shedPic0.png"
+        },
+        {
+            "Alias": "shedLock",
+            "FileName": "stills/shedLock0.png"
+        },
+        {
+            "Alias": "texture",
+            "FileName": "texture.png",
+            "FrameTime": 1,
+            "Repeat": true,
+            "PosX": 0,
+            "PosY": 0,
+            "ColorKey": null
+        },
+        {
+            "Alias": "light_texture",
+            "FileName": "light_texture.png",
+            "FrameTime": 1,
+            "Repeat": false,
+            "PosX": 0,
+            "PosY": 0,
+            "ColorKey": null
+        },
+        {
+            "Alias": "DeerWall",
+            "FileName": "DeerWall.png",
+            "FrameTime": 1,
+            "Repeat": true,
+            "PosX": 0,
+            "PosY": 0,
+            "ColorKey": null
+        },
+        {
+            "Alias": "BloodSplat",
+            "FileName": "Blood/BloodSplat%04d.png",
+            "FrameTime": 1,
+            "Repeat": true,
+            "PosX": 0,
+            "PosY": 0,
+            "ColorKey": null
+        }
+    ],
     "Videos": [
         {
             "Alias": "Trailer1",
@@ -73,6 +81,58 @@
         {
             "Alias": "CellarOpen",
             "FileName": "Cellar-Open.mp4"
+        },
+        {
+            "Alias": "zoom_saw",
+            "FileName": "zoom_saw.mp4"
+        },
+        {
+            "Alias": "load_gun",
+            "FileName": "loadGun.mp4"
+        },
+        {
+            "Alias": "gunNsaw",
+            "FileName": "gunNsaw.mp4"
+        },
+        {
+            "Alias": "handStart",
+            "FileName": "Hand/handStart.mp4"
+        },
+        {
+            "Alias": "handRun",
+            "FileName": "Hand/handRun.mp4"
+        },
+        {
+            "Alias": "handShotOne",
+            "FileName": "Hand/handShotOne.mp4"
+        },
+        {
+            "Alias": "handShotTwo",
+            "FileName": "Hand/handShotTwo.mp4"
+        },
+        {
+            "Alias": "handShotThree",
+            "FileName": "Hand/handShotThree.mp4"
+        },
+        {
+            "Alias": "handMissOne",
+            "FileName": "Hand/handMissOne.mp4"
+        },
+        {
+            "Alias": "handMissTwo",
+            "FileName": "Hand/handMissTwo.mp4"
+        },
+        {
+            "Alias": "handMissThree",
+            "FileName": "Hand/handMissThree.mp4"
+        },
+        {
+            "Alias": "handFinger",
+            "FileName": "Hand/handFinger.mp4"
+        },
+        {
+            "Alias": "handEnd",
+            "FileName": "Hand/handEnd.mp4"
         }
     ]  
 

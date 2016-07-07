@@ -371,7 +371,7 @@ namespace ED_Console.Modes
             _videosRunning = true;
 
             var skipInfo = new SdlTextLayer(_game.Width, _game.Height, "med",
-                FontJustify.Left, FontJustify.Bottom, AssetService.Styles["redYellow"]);
+                FontJustify.Left, FontJustify.Bottom, "redYellow");
 
             skipInfo.SetText("hold flipper to skip",blink_frames:2);
 
@@ -388,8 +388,8 @@ namespace ED_Console.Modes
                 _game.CellarHatch(false);
 
                 var strtext = string.Format("Cellar Multiball | Ball {0} Locked", _lockedBalls);
-                textLockScript = _game.DisplayHelper.GenerateScriptedTextLayer(
-                    strtext, _game.Width, _game.Height, 2.0, "ed_targets", AssetService.Styles["redYellow"]);
+                textLockScript = _game.DisplayHelper.GenerateScriptedMultiTextLayer(
+                    strtext, _game.Width, _game.Height, 2.0, "ed_targets", "redYellow");
                 textLockScript.set_target_position(36, 100);
 
                 var time = 0.0;

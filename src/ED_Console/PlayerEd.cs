@@ -19,9 +19,9 @@ namespace ED_Console
         public int RampCount { get; set; }
         public int MultiballScoring { get; internal set; }
         public bool LockReady { get; internal set; }
-        public bool[] WorkshedsLocked { get; set; }
-        public bool[] TargetBankLeft { get; set; }
-        public bool[] TargetBankRight { get; set; }
+        public bool[] WorkshedsLocked = new bool[3];
+        public bool[] TargetBankLeft = new bool[3];
+        public bool[] TargetBankRight = new bool[3];
         public bool SawReady { get; internal set; }
         public bool GunReady { get; internal set; }
         public int CellarRampCount { get; internal set; }
@@ -38,8 +38,6 @@ namespace ED_Console
                 Multiballs.Add(i, false);
             }
 
-            WorkshedsLocked = new bool[3];
-            TargetBankLeft = new bool[3];
             CompletedMultiBalls = new Dictionary<string, bool>();
             CompletedMultiBalls.Add("s_multiball", false);
             CompletedMultiBalls.Add("w_multiball", false);

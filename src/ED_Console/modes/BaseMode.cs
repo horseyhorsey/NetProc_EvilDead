@@ -34,7 +34,7 @@ namespace ED_Console.Modes
         {
             if (_game.Players.Count == 0)
             {
-                addEdPlayer();
+                _game.AddEdPlayer();
 
                 return SWITCH_CONTINUE;
             }
@@ -42,9 +42,8 @@ namespace ED_Console.Modes
             if (_game.ball == 1)
                 if (_game.Players.Count < 4)
                 {
-                    addEdPlayer();
+                    _game.AddEdPlayer();
                 }
-
 
             return SWITCH_CONTINUE;
         }
@@ -333,7 +332,7 @@ namespace ED_Console.Modes
             if (!MultiBallActive)
             {
                 var txtScriptLayer =
-                _game.DisplayHelper.GenerateScriptedTextLayer("WE|LIVE|STILL", _game.Width, _game.Height, 0.7, "EDLarge", AssetService.Styles["redYellow"]);
+                _game.DisplayHelper.GenerateScriptedMultiTextLayer("WE|LIVE|STILL", _game.Width, _game.Height, 0.7, "EDLarge", "redYellow");
 
                 var group = new GroupedLayer(_game.Width, _game.Height, new List<Layer>()
                 {
@@ -355,6 +354,11 @@ namespace ED_Console.Modes
         private void ClearLayer()
         {
             layer = null;
+        }
+
+        public void RemoveModeInfoLayer()
+        {
+
         }
 
         public void DriveModeLamp(string lampName, string style = "on", bool delayed = false, int delayTime = 0)
