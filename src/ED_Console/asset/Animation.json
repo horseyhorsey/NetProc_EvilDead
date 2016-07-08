@@ -9,6 +9,10 @@
             "FileName": "stills/shedLock0.png"
         },
         {
+            "Alias": "chainsawWipe",
+            "FileName": "Shed/ChainsawWipe/chainsawWipe%02d.png"
+        },
+        {
             "Alias": "texture",
             "FileName": "texture.png",
             "FrameTime": 1,
@@ -133,7 +137,24 @@
         {
             "Alias": "handEnd",
             "FileName": "Hand/handEnd.mp4"
-        }
+        },
+        {
+            "Alias": "ShedOpen",
+            "FileName": "Shed/ShedOpen.mp4"
+        },
+        {
+            "Alias": "ShedLockOne",
+            "FileName": "Shed/ShedLockOne.mp4"
+        },
+        {
+            "Alias": "ShedLockTwo",
+            "FileName": "Shed/ShedLockTwo.mp4"
+        },
+        {
+            "Alias": "ShedLockThree",
+            "FileName": "Shed/ShedLockThree.mp4"
+        },
+        
     ]  
 
 }

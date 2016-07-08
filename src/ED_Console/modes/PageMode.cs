@@ -13,5 +13,10 @@ namespace ED_Console.Modes
         {
             
         }
+
+        internal void PausePages(bool v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

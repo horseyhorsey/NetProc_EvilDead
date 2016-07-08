@@ -27,6 +27,8 @@ namespace ED_Console
         public int CellarRampCount { get; internal set; }
         public int CellarLocked { get; internal set; }
         public bool CellarMultiBallReady { get; internal set; }
+        public bool CardsEnabled { get; internal set; }
+        public int CardCount { get; internal set; }
 
         public EdPlayer(string name) : base(name)
         {
@@ -55,6 +57,15 @@ namespace ED_Console
             BookModesDone.Add("badhand", new bool[2] { false, false });
             BookModesDone.Add("escape", new bool[2] { false, false });
             BookModesDone.Add("cheryl", new bool[2] { false, false });
+        }
+
+        public void ResetGunSawVars()
+        {
+            LockReady = false;
+            TargetBankLeft = new bool[3];
+            TargetBankRight = new bool[3];
+            GunReady = false;
+            SawReady = false;
         }
     }
 }

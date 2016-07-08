@@ -653,19 +653,19 @@
             "Number": "L28"
         },
         {
-            "Name": "LaneD",
+            "Name": "dead1",
             "Number": "L31"
         },
         {
-            "Name": "LaneE",
+            "Name": "dead2",
             "Number": "L32"
         },
         {
-            "Name": "LaneA",
+            "Name": "dead3",
             "Number": "L33"
         },
         {
-            "Name": "LaneDR",
+            "Name": "dead4",
             "Number": "L34"
         },
         {
@@ -876,7 +876,7 @@
       //"leftInlane": "open"
     },
     "StopSwitches": {
-      "shooterLane": "closed",
+      "shooter": "closed",
       "flipperLwL": "closed",
       "flipperLwR": "closed"
     }

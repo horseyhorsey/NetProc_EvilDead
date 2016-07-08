@@ -19,6 +19,7 @@ namespace ED_Console
         public ShedMball ShedMultiball;
         public CellarRamp CellarRampMode;
         public Targets TargetsMode;
+        public WorkShed WorkshedMode;
         #endregion
 
         public List<EdPlayer> EdPlayers;
@@ -32,20 +33,28 @@ namespace ED_Console
             this._game_data = new GameData();
             EdPlayers = new List<EdPlayer>();
 
+            InitModes();
+
+        }
+
+        private void InitModes()
+        {
             ScoreDisplay = new ScoreDisplay(this, 1);
             ScoreDisplay.layer.enabled = false;
             BaseMode = new BaseMode(this, 2);
             AttractMode = new Attract(this, 20);
             SkillshotMode = new Skillshot(this, 3);
-            PagesMode = new PageMode(this,5);
+            PagesMode = new PageMode(this, 5);
             CellarRampMode = new CellarRamp(this, 6);
             TargetsMode = new Targets(this, 25);
+            WorkshedMode = new WorkShed(this, 30);
+            ShedMultiball = new ShedMball(this, 35);
 
             Modes.Add(ScoreDisplay);
             Modes.Add(BaseMode);
             Modes.Add(AttractMode);
             Modes.Add(TargetsMode);
-
+            Modes.Add(WorkshedMode);            
         }
 
         internal void CellarHatch(bool enable)
@@ -66,12 +75,10 @@ namespace ED_Console
 
             return edPlayer;
         }
-
         public EdPlayer CreateEdPlayer(string name)
         {
             return new EdPlayer(name);
         }
-
         public EdPlayer GetCurrentPlayer()
         {
             return this.EdPlayers[this.current_player_index];
@@ -83,6 +90,13 @@ namespace ED_Console
             {
                 lamp.Value.Disable();
             }
+        }
+
+        public void TargetsScoreHit()
+        {
+            bonus(2000);
+            score(25000);
+            _sound.PlaySound("target_hit");
         }
     }
 }

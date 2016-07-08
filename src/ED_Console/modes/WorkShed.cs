@@ -1,4 +1,8 @@
-﻿using System;
+﻿using NetProcgame.Display.Layers;
+using NetProcgame.Services;
+using NetProcgame.Tools;
+using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace ED_Console.Modes
@@ -6,24 +10,37 @@ namespace ED_Console.Modes
     public class WorkShed : NetProcgame.Game.Mode
     {        
         Game _game;
+        AnimatedLayer ChainsawWipe;
 
         public WorkShed(Game game, int priority) : base(game, priority)
         {
             _game = game;
+
+            ChainsawWipe = AssetService.Animations["chainsawWipe"];
         }
 
         public override void mode_started()
         {
-            var s = _game.GetCurrentPlayer().WorkshedsLocked.Where(x => x == true).Count();
+            try
+            {
+                var s = _game.GetCurrentPlayer().WorkshedsLocked
+                .Where(x => x == true).Count();
+            }
+            catch (Exception)
+            {                
+            }
+            
         }
 
-        private void ShedKickerCheck()
+        public void ShedKickerCheck()
         {
+            var player = _game.GetCurrentPlayer();
+
             if (!_game.ShedMultiball.IsStarted())
             {
-                if (!_game.GetCurrentPlayer().WorkshedsLocked[0])
+                if (!player.WorkshedsLocked[0])
                 {
-                    _game.GetCurrentPlayer().WorkshedsLocked[0] = true;
+                    player.WorkshedsLocked[0] = true;
                     _game.score(250000);
 
                     if (!_game.BaseMode.MultiBallActive)
@@ -33,9 +50,9 @@ namespace ED_Console.Modes
                     else
                         MultiBallReady();
                 }
-                else if (!_game.GetCurrentPlayer().WorkshedsLocked[1])
+                else if (!player.WorkshedsLocked[1])
                 {
-                    _game.GetCurrentPlayer().WorkshedsLocked[1] = true;
+                    player.WorkshedsLocked[1] = true;
                     _game.score(500000);
 
                     if (!_game.BaseMode.MultiBallActive)
@@ -47,9 +64,9 @@ namespace ED_Console.Modes
 
 
                 }
-                else if (!_game.GetCurrentPlayer().WorkshedsLocked[2])
+                else if (!player.WorkshedsLocked[2])
                 {
-                    _game.GetCurrentPlayer().WorkshedsLocked[2] = true;
+                    player.WorkshedsLocked[2] = true;
                     _game.score(750000);
 
                     if (!_game.BaseMode.MultiBallActive)
@@ -64,27 +81,46 @@ namespace ED_Console.Modes
             {
                 _game.BaseMode.DriveModeLamp("rightFlash", "medium");
 
-                delay("", NetProcgame.NetPinproc.EventType.None, 1, new NetProcgame.Game.AnonDelayedHandler(KickOutFromShed));
+                delay("shedKickoutAfterCheck", NetProcgame.NetPinproc.EventType.None, 1, new NetProcgame.Game.AnonDelayedHandler(KickOutFromShed));
             }
         }
-
         private void KickOutFromShed()
         {
             _game.Coils["rightEject"].Pulse();
             _game.update_lamps();
         }
-
         private void MultiBallReady()
         {
             cancel_delayed("multiballReady");
-
-
         }
 
-        private void GenerateShedLockLayer(string letter)
-        {
+        public Layer GenerateShedLockLayer(string letter)
+        {            
+            var shedStatus =
+                _game.BaseMode.SetStatus(letter, "Spotted", 3, "ed_targets", composite: false);
+            //trans = procgame.dmd.TransitionLayer(None, self.HDTextLayer1, transitionType = procgame.dmd.Transition.TYPE_FADE)            
 
+            var script = new List<Pair<double, Layer>>();
+            var layerEmpty = new Layer();
+            script.Add(new Pair<double, Layer>( 1.0, layerEmpty));
+            script.Add(new Pair<double, Layer>(2, shedStatus));
+            var sl = new ScriptedLayer(_game.Width, _game.Height, script);
+            sl.opaque = true;
+
+            var layers = new List<Layer>() { ChainsawWipe, sl };
+            var group = new GroupedLayer(_game.Width, _game.Height, layers);
+
+            delay("clearDMD", NetProcgame.NetPinproc.EventType.None, 4,
+                new NetProcgame.Game.AnonDelayedHandler(() => {
+                    layer = null;
+                    ChainsawWipe.reset();
+                }));
+
+            layer = group;
+
+            return group;
         }
+
     }
 }
 

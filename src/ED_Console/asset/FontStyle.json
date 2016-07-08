@@ -1,28 +1,40 @@
 {
-  "FontStyles": [
-    {
-      "Name": "Weird",
-      "InteriorColor": "0,255,0",
-      "LineColor": "255, 0, 128",
-      "LineWidth": 1
-    },
-    {
-      "Name": "redYellow",
-      "InteriorColor": "255,0,0",
-      "LineColor": "255, 255, 51",
-      "LineWidth": 3
-    },
-    {
-      "Name": "redYellowThin",
-      "InteriorColor": "255,0,0",
-      "LineColor": "255, 255, 51",
-      "LineWidth": 2
-    },    
-    {
-      "Name": "redYel",
-      "InteriorColor": "255,0,0",
-      "LineColor": "255, 255, 51",
-      "LineWidth": 0
-    }        
-  ]
+    "FontStyles": [
+        {
+            "Name": "Weird",
+            "InteriorColor": "0,255,0",
+            "LineColor": "255, 0, 128",
+            "LineWidth": 1
+        },
+        {
+            "Name": "redYellow",
+            "InteriorColor": "255,0,0",
+            "LineColor": "255, 255, 51",
+            "LineWidth": 3
+        },
+        {
+            "Name": "redYellowThin",
+            "InteriorColor": "255,0,0",
+            "LineColor": "255, 255, 51",
+            "LineWidth": 2
+        },
+        {
+            "Name": "redYel",
+            "InteriorColor": "255,0,0",
+            "LineColor": "255, 255, 51",
+            "LineWidth": 0
+        },
+        {
+            "Name": "yelRedThin",
+            "InteriorColor": "192,192,17",
+            "LineColor": "192, 10, 10",
+            "LineWidth": 1
+        },
+        {
+            "Name": "redYelThin",
+            "LineColor": "192,192,17",
+            "InteriorColor": "192, 10, 10",
+            "LineWidth": 1
+        }
+    ]
 }

@@ -1,7 +1,7 @@
 ﻿//#Bind switches to Sdl Keys
 {
     "SDLK_1": "startButton",
-    "SDLK_2": "shooterLane",
+    "SDLK_2": "shooter",
     "SDLK_7": "down",
     "SDLK_8": "up",
     "SDLK_a": "Target1",
@@ -9,5 +9,9 @@
     "SDLK_d": "Target3",
     "SDLK_f": "Target4",
     "SDLK_g": "Target5",
-    "SDLK_h": "Target6"
+    "SDLK_h": "Target6",
+    "SDLK_z": "topRolloverL",
+    "SDLK_x": "topRolloverM",
+    "SDLK_c": "topRolloverR",
+    "SDLK_v": "rightE"    
 }

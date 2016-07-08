@@ -48,9 +48,11 @@ namespace ED_Console.Modes
             _text2 = new SdlTextLayer(0, _game.Height / 2, "ed_targets", FontJustify.Center, FontJustify.Bottom);
         }              
 
-        private void CheckMultiballReady()
+        public void CheckMultiballReady()
         {
-            if(_gunReady && _sawReady)
+            var player = _game.GetCurrentPlayer();
+
+            if (player.GunReady && player.SawReady)
             {
                 cancel_delayed("clearDmd");
                 _game.GetCurrentPlayer().LockReady = true;
