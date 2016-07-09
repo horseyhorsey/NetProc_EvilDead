@@ -13,6 +13,10 @@
             "FileName": "Shed/ChainsawWipe/chainsawWipe%02d.png"
         },
         {
+            "Alias": "bubbaJoe",
+            "FileName": "stills/bubba0.png"
+        },
+        {
             "Alias": "texture",
             "FileName": "texture.png",
             "FrameTime": 1,
@@ -154,7 +158,11 @@
             "Alias": "ShedLockThree",
             "FileName": "Shed/ShedLockThree.mp4"
         },
-        
+        {
+            "Alias": "TapeRecorder",
+            "FileName": "TapeRecorder.mp4"
+        }
+
     ]  
 
 }

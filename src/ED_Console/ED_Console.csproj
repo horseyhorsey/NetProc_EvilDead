@@ -53,6 +53,7 @@
     <Compile Include="Modes\CellarMBall.cs" />
     <Compile Include="Modes\CellarRamp.cs" />
     <Compile Include="Modes\DeadByDawn.cs" />
+    <Compile Include="Modes\Cheryl.cs" />
     <Compile Include="Modes\Escape.cs" />
     <Compile Include="Modes\Info.cs" />
     <Compile Include="Modes\LeftRamp.cs" />

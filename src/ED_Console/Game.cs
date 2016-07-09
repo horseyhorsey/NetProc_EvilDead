@@ -20,6 +20,15 @@ namespace ED_Console
         public CellarRamp CellarRampMode;
         public Targets TargetsMode;
         public WorkShed WorkshedMode;
+        public Bumpers BumpersMode;
+        public DeadByDawn DeadByDawnMode;
+
+        public ModeSelect SelectMode;
+        public Linda Lindamode;
+        public Shelly ShellyMode;
+        public BadHand BadHandMode;
+        public Escape EscapeMode;
+        public Cheryl CherylMode;
         #endregion
 
         public List<EdPlayer> EdPlayers;
@@ -49,6 +58,15 @@ namespace ED_Console
             TargetsMode = new Targets(this, 25);
             WorkshedMode = new WorkShed(this, 30);
             ShedMultiball = new ShedMball(this, 35);
+            BumpersMode = new Bumpers(this, 40);
+            DeadByDawnMode = new DeadByDawn(this, 50);
+
+            SelectMode = new ModeSelect(this, 40);
+            Lindamode = new Linda(this, 40);
+            CherylMode = new Cheryl(this, 40);
+            BadHandMode = new BadHand(this, 40);
+            EscapeMode = new Escape(this, 40);
+            ShellyMode = new Shelly(this, 40);
 
             Modes.Add(ScoreDisplay);
             Modes.Add(BaseMode);

@@ -4,6 +4,8 @@
     "SDLK_2": "shooter",
     "SDLK_7": "down",
     "SDLK_8": "up",
+    "SDLK_LSHIFT": "flipperLwL",
+    "SDLK_RSHIFT": "flipperLwR",
     "SDLK_a": "Target1",
     "SDLK_s": "Target2",
     "SDLK_d": "Target3",
@@ -13,5 +15,8 @@
     "SDLK_z": "topRolloverL",
     "SDLK_x": "topRolloverM",
     "SDLK_c": "topRolloverR",
-    "SDLK_v": "rightE"    
+    "SDLK_v": "leftEject",
+    "SDLK_w": "bumperL",
+    "SDLK_e": "bumperM",
+    "SDLK_r": "bumperR"
 }

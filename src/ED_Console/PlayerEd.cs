@@ -8,11 +8,12 @@ namespace ED_Console
         public int SkillLevel { get; set; } = 1;
         public bool ScottyOpen { get; set; } = false;
         public int BumpersHit { get; set; }
-        public int BumpersLevel { get; set; }
+        public int BumpersLevel { get; set; } = 1;
         public int DeadCount { get; set; }
         public Dictionary<int, bool> EvilDeadTargets { get; set; }
         public Dictionary<string, bool> CompletedMultiBalls { get; set; }        
-        public Dictionary<string, bool []> BookModesDone { get; set; }
+        public Dictionary<string, bool> BookModesAttempted { get; set; }
+        public Dictionary<string, bool> BookModesComplete { get; set; }
         public bool ModeActive { get; set; }
         public bool DbdComplete { get; set; }
         public Dictionary<int, bool> Multiballs { get; set; } 
@@ -29,6 +30,7 @@ namespace ED_Console
         public bool CellarMultiBallReady { get; internal set; }
         public bool CardsEnabled { get; internal set; }
         public int CardCount { get; internal set; }
+        public bool DeadByDawnComplete { get; internal set; }
 
         public EdPlayer(string name) : base(name)
         {
@@ -51,12 +53,20 @@ namespace ED_Console
         /// </summary>
         private void AddBookModes()
         {
-            BookModesDone = new Dictionary<string, bool[]>();
-            BookModesDone.Add("linda",new bool[2] { false, false });
-            BookModesDone.Add("shelly", new bool[2] { false, false });
-            BookModesDone.Add("badhand", new bool[2] { false, false });
-            BookModesDone.Add("escape", new bool[2] { false, false });
-            BookModesDone.Add("cheryl", new bool[2] { false, false });
+            BookModesAttempted = new Dictionary<string, bool>();            
+            BookModesAttempted.Add("linda", false);
+            BookModesAttempted.Add("shelly", false);
+            BookModesAttempted.Add("badhand", false);
+            BookModesAttempted.Add("escape", false);
+            BookModesAttempted.Add("cheryl", false);
+
+            BookModesComplete = new Dictionary<string, bool>();
+            BookModesComplete.Add("linda", false);
+            BookModesComplete.Add("shelly", false);
+            BookModesComplete.Add("badhand", false);
+            BookModesComplete.Add("escape", false);
+            BookModesComplete.Add("cheryl", false);
+
         }
 
         public void ResetGunSawVars()

@@ -34,7 +34,11 @@ namespace ED_Console.Modes
         {
             if (_game.Players.Count == 0)
             {
+                _game._sound.StopSound("");
+
                 _game.AddEdPlayer();
+
+                _game.Modes.Add(_game.BumpersMode);
 
                 return SWITCH_CONTINUE;
             }
@@ -331,8 +335,33 @@ namespace ED_Console.Modes
             return SWITCH_STOP;
         }
         public bool sw_leftEject_active_for_1s(Switch sw)
-        {
+        {            
+            var player = _game.GetCurrentPlayer();
+            if (player.ModeActive || MultiBallActive)
+                _game.Coils["leftEject"].Pulse();
+            else
+            {
+                _game.TargetsMode.layer = null;
+                _game.bonus(5000);
 
+                if (player.BookModesAttempted.Values.Contains(false))
+                    _game.Modes.Add(_game.SelectMode);
+                else if (!player.DeadByDawnComplete)
+                {
+                    _game.Modes.Add(_game.DeadByDawnMode);
+
+                    var completeCountBonus = player.BookModesComplete
+                        .Where(x => x.Value == true).Count();
+
+                    _game.DeadByDawnMode._multiplier = completeCountBonus;
+                }
+                else
+                {
+                    _game._sound.PlaySound("NoiseWheel");
+                    _game.Coils["leftEject"].Pulse();
+                    _game.update_lamps();
+                }                                    
+            }
 
             return SWITCH_CONTINUE;
         }

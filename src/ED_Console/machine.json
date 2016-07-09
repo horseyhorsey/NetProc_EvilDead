@@ -299,6 +299,11 @@
             "Number": "S67"
         },
         {
+            "Name": "bumperR",
+            "Type": "NO",
+            "Number": "S68"
+        },
+        {
             "Name": "handDrop1",
             "Type": "NO",
             "Number": "S71"

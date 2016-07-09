@@ -33,6 +33,11 @@
             "Volume": 0.8
         },
         {
+            "Name": "BubbaJoe",
+            "FileName": "BubbaJoe.ogg",
+            "Volume": 0.8
+        },
+        {
             "Name": "Trailer1",
             "FileName": "Attract/Trailer1.ogg",
             "Volume": 0.8
@@ -81,18 +86,52 @@
         {
             "Name": "AshReady",
             "FileName": "Ash/ASH_YoureMess.ogg"
+        },
+        {
+            "Name": "AshReady",
+            "FileName": "Ash/ASH_YoureMess.ogg"
         }
     ],
-  "Sfx": [
-            {
-      "Name": "bump1",
-      "FileName": "bump1.ogg",
-      "Volume": 0.8
-    },
-              {
-      "Name": "bump2",
-      "FileName": "bump2.ogg",
-      "Volume": 0.8
-    }
-  ]
+    "Sfx": [
+        {
+            "Name": "bump1",
+            "FileName": "bump1.ogg",
+            "Volume": 0.8
+        },
+        {
+            "Name": "bump2",
+            "FileName": "bump2.ogg",
+            "Volume": 0.8
+        },
+        {
+            "Name": "bump3",
+            "FileName": "bump3.ogg",
+            "Volume": 0.8
+        },
+        {
+            "Name": "bump4",
+            "FileName": "bump4.ogg",
+            "Volume": 0.8
+        },
+        {
+            "Name": "bump5",
+            "FileName": "bump5.ogg",
+            "Volume": 0.8
+        },
+        {
+            "Name": "bump6",
+            "FileName": "bump6.ogg",
+            "Volume": 0.8
+        },
+        {
+            "Name": "bump7",
+            "FileName": "bump7.ogg",
+            "Volume": 0.8
+        },
+        {
+            "Name": "bump8",
+            "FileName": "bump8.ogg",
+            "Volume": 0.8
+        }
+    ]
 }

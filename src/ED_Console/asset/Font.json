@@ -26,9 +26,9 @@
             "Size": 32
         },
         {
-            "Alias": "EDLarge",
+            "Alias": "default_msg",
             "Font": "EVILDEAD.ttf",
-            "Size": 62
+            "Size": 15
         },
         {
             "Alias": "ed_common",
@@ -39,6 +39,26 @@
             "Alias": "ed_targets",
             "Font": "EVILDEAD.ttf",
             "Size": 48
+        },
+        {
+            "Alias": "ed_LeftRamp1",
+            "Font": "EVILDEAD.ttf",
+            "Size": 62
+        },
+        {
+            "Alias": "EDLarge",
+            "Font": "EVILDEAD.ttf",
+            "Size": 62
+        },
+        {
+            "Alias": "spellED",
+            "Font": "EVILDEAD.ttf",
+            "Size": 100
+        },
+        {
+            "Alias": "spellEDInfo",
+            "Font": "EVILDEAD.ttf",
+            "Size": 22
         },
         {
             "Alias": "FeastLarge",
